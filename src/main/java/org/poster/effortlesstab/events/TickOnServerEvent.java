@@ -15,7 +15,7 @@ public class TickOnServerEvent {
 
         PlayerList playerList = new PlayerList();
 
-        Map<Integer, String> placeholders = new HashMap();
+        Map<Integer, String> placeholders = new HashMap<>();
 
         (new BukkitRunnable() {
             public void run() {
