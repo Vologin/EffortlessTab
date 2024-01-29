@@ -1,0 +1,20 @@
+tab:
+  # Placeholders:
+  #
+  # get.motd - for server Motd
+  # get.ip - for server IP
+  # get.tps - for server ticks per second (TPS)
+
+  header:
+    # true/false to show, or not, your fancy header in Player list (aka. tab)
+    enable: true
+
+    # This one contains value of the header itself
+    value: "Cool §6Server!§f\n"
+
+  footer:
+    # true/false to show, or not, your fancy footer in Player list (aka. tab)
+    enable: true
+
+    # And this one contains value of the footer now
+    value: "\nCurrent TPS:§6 get.tps"

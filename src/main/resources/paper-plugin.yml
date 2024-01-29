@@ -1,0 +1,4 @@
+name: EffortlessTab
+version: '1.0'
+main: org.poster.effortlesstab.EffortlessTab
+api-version: '1.20'
