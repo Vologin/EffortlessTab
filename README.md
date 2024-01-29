@@ -1,4 +1,4 @@
-# ![image](https://github.com/Vologin/EffortlessTab/assets/49094486/75e22231-52d7-4128-8aa8-a441418d9173)
+# Description
 
 **EffortlessTab**, a user-friendly **paper** plugin designed to effortlessly transform your Minecraft server tablist. With just a few clicks and a quick configuration in the config.yml file, you can seamlessly customize your server's tablist without breaking a sweat.
 
