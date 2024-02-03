@@ -3,14 +3,10 @@ package org.poster.effortlesstab.playerlist;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
-import org.checkerframework.checker.units.qual.C;
-import org.poster.effortlesstab.configuration.ConfigurationValuesGetter;
 
 import java.util.Map;
 
 public class PlayerList {
-
-    ConfigurationValuesGetter configurationValuesGetter = new ConfigurationValuesGetter();
 
     /*
     All of the shit below just look into the config and take the values out of it,
@@ -21,7 +17,6 @@ public class PlayerList {
     public void setHeader(Player player, Map<Integer, String> placeholders, Plugin plugin) {
 
         String header = plugin.getConfig().getString("tab.header.value");
-        String headertest = configurationValuesGetter.getString("tab.header.value");
         boolean enabledHeader = plugin.getConfig().getBoolean("tab.header.enable");
 
         if (enabledHeader) {
