@@ -14,4 +14,4 @@
 
 # Preview
 
-![image](https://github.com/Vologin/EffortlessTab/assets/49094486/4c225035-651c-423c-90e4-4fe72c0e1fac)
+![image](https://github.com/Vologin/EffortlessTab/assets/49094486/7f3fe0c1-e343-4a8d-93c3-601a4619ba06)
