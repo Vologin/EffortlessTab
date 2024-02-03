@@ -4,17 +4,20 @@ tab:
   # get.motd - for server Motd
   # get.ip - for server IP
   # get.tps - for server ticks per second (TPS)
+  # get.playerxaxis - get current Player X axis
+  # get.playeryaxis - get current Player Y axis
+  # get.playerzaxis - get current Player Z axis
 
   header:
     # true/false to show, or not, your fancy header in Player list (aka. tab)
     enable: true
 
     # This one contains value of the header itself
-    value: "Cool §6Server!§f\n"
+    value: "\n Cool §6Server!§f\n Current TPS:§6 get.tps\n"
 
   footer:
     # true/false to show, or not, your fancy footer in Player list (aka. tab)
     enable: true
 
     # And this one contains value of the footer now
-    value: "\nCurrent TPS:§6 get.tps"
+    value: "\nYour position: §7X: get.playerxaxes Y: get.playeryaxes Z: get.playerzaxes\n"
