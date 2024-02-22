@@ -7,13 +7,6 @@ import org.bukkit.plugin.Plugin;
 import java.util.Map;
 
 public class PlayerList {
-
-    /*
-    All of the shit below just look into the config and take the values out of it,
-    - .value means the actual string that will be shown in the Player list (aka. tab)
-    - .enable it's the "visibility" state (false/true). True shows header/footer, but false does otherwise
-     */
-
     public void setHeader(Player player, Map<Integer, String> placeholders, Plugin plugin) {
 
         String header = plugin.getConfig().getString("tab.header.value");
